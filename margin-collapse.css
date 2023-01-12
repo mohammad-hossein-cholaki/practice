@@ -1,0 +1,13 @@
+div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.padding{
+    padding: 10px 0;
+}
