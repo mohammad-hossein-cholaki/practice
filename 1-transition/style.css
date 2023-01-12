@@ -1,0 +1,80 @@
+.circle {
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    border: 1px solid black;
+    /* transition: property name | duration | timing function (default: linear) | delay */
+    transition: border-radius 3s linear 5s;
+    
+    /* transition: all 3s ease 3s; */
+    transition-property: border, background,width,;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 2s;
+}
+
+.circle:hover {
+    border-radius: 50%;
+    background-color: skyblue;
+    margin-left: 50px;
+}
+
+
+.test {
+    background-color: red;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: all 1.25s;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* .test:hover {
+    background-color: blue;
+} */
+
+
+
+section div {
+    height: 100px;
+    width: 100px;
+    background-color: turquoise;
+    margin: 20px 0;
+    transition: all 2s;
+}
+
+section {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(253, 255, 127);
+}
+
+section:hover div {
+    margin-left: 1000px;
+}
+
+.ease {
+    transition-timing-function: ease;
+}
+
+.linear {
+    transition-timing-function: linear;
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+}
+
+.cubic {
+    transition-timing-function: cubic-bezier(.05,1.52,1,.02);
+}

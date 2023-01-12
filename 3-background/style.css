@@ -1,0 +1,17 @@
+h1 {
+    font-size: 150px;
+    text-align: center;
+    text-shadow: black -6px 6px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: lighter;
+    color: white;
+}
+
+section {
+    /* background-image: url('https://images.unsplash.com/photo-1564442038901-4f9a19d3d456?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1227&q=80e');
+    background-size: cover/contain;
+    background-repeat: no-repeat;*/
+    /* background-position: center;  */
+    height: 800px;
+    background: url('https://images.unsplash.com/photo-1564442038901-4f9a19d3d456?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1227&q=80e') no-repeat center/cover;
+}
