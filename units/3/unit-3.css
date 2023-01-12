@@ -1,0 +1,12 @@
+.parent{
+    
+    border: 1px solid black;
+    padding: 2px;
+   
+}
+
+.icon{
+    background-color: red;
+    margin-bottom: 1px;
+   display: inline-block;
+}
